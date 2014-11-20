@@ -24,7 +24,7 @@
                  [prismatic/schema "0.2.3"]]
   :repl-options {:init-ns emacs-workshop-app.app}
   :plugins [[lein-git-version "0.0.10"]
-            [cider/cider-nrepl "0.7.0"]]
+            [cider/cider-nrepl "0.8.0-SNAPSHOT"]]
   :global-vars {*warn-on-reflection* true}
   :hooks [leiningen.hooks.git-version]
   :main emacs-workshop-app.main
